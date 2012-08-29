@@ -1,2 +1,68 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/*LOGO ET SLOGAN*/
+#region-header-second img { 
+  height: 145px;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  background-repeat: no repeat;
+  float: left;
+}
+
+#block-search-form {
+	float: right;
+}
+
+#block-block-2 img{
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  background-repeat: no repeat;
+  float: left;
+}
+
+/*FOOTER*/
+#zone-footer-wrapper {
+	background: #3C3C3C;
+	height: 120%;
+}
+
+#zone-user-wrapper {
+	background: #3C3C3C;
+	padding: 1% 0;
+}
+
+/*Bordure sidebar*/
+
+#region-sidebar-first, #region-sidebar-second {
+  border: 1px solid #8C8CA1;
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+
+/*Sidebar : contenu et titres*/
+#region-sidebar-first #block-block-3 h2.block-title {
+ color: #BECE12;
+ font-family: sans-serif;
+ background: url('../images/bullet4.gif') no-repeat scroll 70% transparent;
+}
+
+#region-sidebar-second{
+
+}
+
+#region-sidebar-second #block-block-4 h2.block-title {
+  color: #BECE12;
+  font-family: sans-serif;
+  background: url('../images/bullet4.gif') no-repeat scroll 90% transparent;
+}
+
+#region-sidebar-second #block-block-4 span {
+color: #8C8CA1;
+font-size: 150%;
+font-family: Liberation Sans;
+}
+
+
